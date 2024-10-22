@@ -1,0 +1,16 @@
+.header {
+    background-color: #001529;
+    padding: 16px;
+    display: flex;
+    justify-content: center;
+}
+
+.header__inner {
+    display: flex;
+    gap: 15px;
+}
+
+.header__btn {
+    color: white;
+    font-weight: bold;
+}
