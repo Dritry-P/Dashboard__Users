@@ -65,7 +65,7 @@ const Departments = observer(() => {
         <>
             <div className="departments__inner" style={{ padding: '20px' }}>
                 {departmentsTree.length > 0 ? (
-                    <Collapse defaultActiveKey={['1']} expandIconPosition="left">
+                    <Collapse defaultActiveKey={['1']} expandIconPosition="start">
                         {departmentsTree.map(department => renderDepartment(department))}
                     </Collapse>
                 ) : (

@@ -76,7 +76,7 @@ const Users = observer(() => {
                 title="Фільтри"
                 placement="left"
                 onClose={closeFilters}
-                visible={filterVisible}
+                open={filterVisible}
             >
                 <Form layout="vertical">
                     <Form.Item label="Ім'я">
