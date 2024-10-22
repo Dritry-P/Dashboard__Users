@@ -2,6 +2,7 @@
   "name": "client_dashboard",
   "version": "0.1.0",
   "private": true,
+  "proxy": "https://demo2-uk.prod.itua.in.ua",
   "dependencies": {
     "@ant-design/icons": "^5.5.1",
     "@testing-library/jest-dom": "^5.17.0",
